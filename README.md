@@ -38,7 +38,5 @@ jetcache:
 
 ## CHANGELOGS
 ### 1.0.2
-* 初次发布
-
 * 支持fastjson、jackson、gson序列化（gson序列化需主动引入相关包）
 * 提供JetCacheLockService简化锁操作
