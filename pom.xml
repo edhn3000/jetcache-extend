@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.edhn.cache</groupId>
 	<artifactId>jetcache-extend-starter</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<name>jetcache-extend</name>
 	<url>https://github.com/edhn3000/jetcache-extend.git</url>
 	<description>extend jetcache to support more feature, such as multi json serializers</description>

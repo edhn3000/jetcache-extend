@@ -21,7 +21,7 @@
 
 ```yml
 jetcache:
-  statIntervalMinutes: 15
+  statIntervalMinutes: 60
   areaInCacheName: false
   local:
     default:
@@ -38,8 +38,7 @@ jetcache:
 
 ## CHANGELOGS
 ### 1.0.2
-* 改进JetCacheLockService支持分别指定等待超时、锁超时参数
-### 1.0.1
-* 支持gson、jackson序列化，使用gson序列化需主动在pom引入gson包
-### 1.0.0
-初次发布，支持fastjson序列化
+* 初次发布
+
+* 支持fastjson、jackson、gson序列化（gson序列化需主动引入相关包）
+* 提供JetCacheLockService简化锁操作
